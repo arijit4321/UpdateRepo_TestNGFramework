@@ -1,4 +1,4 @@
-package Automation.Arijit_Framework;
+package arijit_StepDef;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -1,0 +1,18 @@
+--> Original Project Repository & Own personal Repo
+Initially when cloning from master it will get cloned in your Local Master Branch. So, 
+1st we need create one Jira, Type will be Task.
+2nd we will create New Branch from Intellij & in Branch Name we will give Jira Name not link e.g PORTFOLIOCENTRAL - 3544 then give
+hiphen or underscore and give some description and click on checkout. So checkout will switch from master to your branch.
+3rd pull the latest code in local
+4th select the project click commit, give commit message but in prefix it should be the Jira name like above then write the commit msg.
+5th we are pushing the code in our own repo not in original project repo.
+Note: 
+1. Before commiting any branch master or own branch will be in local branch and after commit to that branch it will be remote branch
+2. commit and pushing should be in our own repo.
+6th pushing is success.
+7th Click on Create PR Request give the below deatils and give the authorisation names from team who can review and approve.
+Source project - Own Repository				Branch Name - your Jira branch name as above
+Destination Project - Original Project Repo		Branch Name - master branch
+
+8th After PR approve, Need to check the build btn present in GitStash which is connected with Jenkins
+9th After build is success Merge butn will get enabled. Click to merge the source and destination
